@@ -1,0 +1,14 @@
+
+2024-07-23 20:45
+
+Status:
+
+Tags:
+
+
+# ZETTELKANTEN BEGIN
+
+[[ZETTELKANTEN.canvas|ZETTELKANTEN]]
+
+
+# Reference

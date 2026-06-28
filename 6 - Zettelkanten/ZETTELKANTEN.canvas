@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"4b7f9dc6537b2bc0","x":-440,"y":-150,"width":140,"height":50,"color":"1","type":"text","text":"Consume"},
+		{"id":"36b0dcb83ab48d74","x":-440,"y":-40,"width":140,"height":50,"color":"1","type":"text","text":"Idea"},
+		{"id":"d9ddeacc0f8250cb","x":-200,"y":-100,"width":160,"height":60,"color":"1","type":"text","text":"Capture"},
+		{"id":"7e6bbc6184fde53a","x":-300,"y":-280,"width":249,"height":60,"color":"4","type":"text","text":"- Literature Notes\n- Fleeting Notes"},
+		{"id":"c0299c1a82b03301","type":"text","text":"Connect","x":80,"y":-100,"width":160,"height":60,"color":"1"},
+		{"id":"409d2ffa8828c7b7","type":"text","text":"Crystalize","x":380,"y":-100,"width":160,"height":60,"color":"1"},
+		{"id":"0ff852c9b45663db","type":"text","text":"- generate insides and the idea","x":360,"y":-300,"width":304,"height":80,"color":"4"},
+		{"id":"51c7424e466cc86f","type":"text","text":"- Hub Notes\n- Related to content\n- Future use case","x":-9,"y":-300,"width":249,"height":80,"color":"4"},
+		{"id":"7a0e24b9a03e305c","type":"text","text":"Create","x":664,"y":-100,"width":160,"height":60,"color":"1"},
+		{"id":"6bc9fb30743d0226","type":"text","text":"- Blog\n- Podcast\n- Video","x":780,"y":80,"width":304,"height":80,"color":"4"}
+	],
+	"edges":[
+		{"id":"56d38ec864be72ae","fromNode":"4b7f9dc6537b2bc0","fromSide":"right","toNode":"d9ddeacc0f8250cb","toSide":"left"},
+		{"id":"bda568d812a1d3ad","fromNode":"36b0dcb83ab48d74","fromSide":"right","toNode":"d9ddeacc0f8250cb","toSide":"left"},
+		{"id":"dc772829458d1270","fromNode":"7e6bbc6184fde53a","fromSide":"bottom","toNode":"d9ddeacc0f8250cb","toSide":"top","label":"What's inside"},
+		{"id":"7fdd60396c1f466f","fromNode":"d9ddeacc0f8250cb","fromSide":"right","toNode":"c0299c1a82b03301","toSide":"left"},
+		{"id":"b93fca969faf426e","fromNode":"51c7424e466cc86f","fromSide":"bottom","toNode":"c0299c1a82b03301","toSide":"top","label":"What's inside"},
+		{"id":"0f5a87a0df74e9b8","fromNode":"c0299c1a82b03301","fromSide":"right","toNode":"409d2ffa8828c7b7","toSide":"left"},
+		{"id":"86dac6c842668c05","fromNode":"0ff852c9b45663db","fromSide":"bottom","toNode":"409d2ffa8828c7b7","toSide":"top","label":"What's inside"},
+		{"id":"08ced85c889424cd","fromNode":"409d2ffa8828c7b7","fromSide":"right","toNode":"7a0e24b9a03e305c","toSide":"left"},
+		{"id":"bd1dddb0de99e195","fromNode":"7a0e24b9a03e305c","fromSide":"bottom","toNode":"6bc9fb30743d0226","toSide":"top","label":"Outcomes"}
+	]
+}
